@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="style.css?version=3" />
+
+    <!-- <script type="module" src="collision-detection.js" defer></script>
+    <script type="module" src="paddle.js" defer></script>
+    <script type="module" src="input.js" defer></script>
+    <script type="module" src="ball.js" defer></script>
+    <script type="module" src="levels.js" defer></script>
+    <script type="module" src="game.js" defer></script>
+    <script type="module" src="brick.js" defer></script> -->
+    <script type="module" src="index.js" defer></script>
+
+    <title>Brick Breaking Game</title>
+  </head>
+  <body>
+    <img id="img_background" src="assets/images/background.jpg" />
+
+    <img id="img_paddle" src="assets/images/paddle.png" />
+
+    <img id="img_brick" src="assets/images/brick.png" />
+
+    <img id="img_ball" src="assets/images/ball.png" />
+
+    <img id="img_gameover" src="assets/images/game-over.jpg" />
+
+    <canvas id="game_screen" width="800px" height="600px"> </canvas>
+
+    <div id="info_about_game">
+      <div id="lvl_and_lives">
+        <div id="level">
+          <h1></h1>
+        </div>
+
+        <div id="lives">
+          <h2></h2>
+        </div>
+      </div>
+
+      <div id="controls-container">
+        <div id="controls">
+          <span>Comenzi:</span> Tasta ESC pentru a pune pauza / porni jocul,
+          săgețile stânga și dreapta pentru a controla paleta
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

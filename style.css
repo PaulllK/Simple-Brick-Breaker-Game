@@ -1,0 +1,66 @@
+#game_screen {
+  border: 2px solid black;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+img {
+  display: none;
+}
+
+#info_about_game {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*#info_about_game>div{
+    width: 100%;
+}*/
+
+#level {
+  color: springgreen;
+  font-family: fantasy;
+  text-align: center;
+  width: 50%;
+}
+
+#level > h1 {
+  color: springgreen;
+  font-family: fantasy;
+  text-align: center;
+  background-color: aliceblue;
+  width: 50%;
+}
+
+#lives {
+  text-align: center;
+  font-family: fantasy;
+  width: 25%;
+}
+
+#controls-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#controls {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: x-large;
+}
+
+#controls > span {
+  font-family: fantasy;
+  color: brown;
+}
+
+#lvl_and_lives {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: auto;
+}
